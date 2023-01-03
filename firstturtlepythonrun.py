@@ -1,9 +1,7 @@
 from turtle import *
-fd(100)
-rt(90)
-fd(50)
-rt(80)
-rt(10)
-fd(100)
-rt(90)
-fd(50)
+shape("turtle")
+color("red")
+for i in range(4):
+  fd(100)
+  rt(90)
+hideturtle()
